@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bruno+Ace&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ultra&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1 {
+    -webkit-text-stroke: 2px black;
+    font-family: 'Ultra', serif;
+    color:rgb(0, 42, 208);
+    font-size: 50pt;
+    color: yellowgreen;
+}
+div, p, input, h2, button {
+    font-family: 'Bruno Ace', cursive;
+    text-align: justify;
+    color: yellowgreen;
+}
+
+main {
+    max-width: 100vw;
+    min-height: 100vh;
+
+    background-image: url('img/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#introduccion {
+    width: 25vw;
+    height: 50vh;
+
+    background: radial-gradient(circle, rgba(1,32,152,1) 0%, rgba(3,0,111,1) 42%, rgba(2,0,125,1) 100%);
+    
+    margin-top: 10vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+#introduccion:hover, input:hover {
+    border-radius: 10px;
+    border: 5px solid rgba(194,159,5,1);
+}
+#introduccion > h2 {
+    font-size: 20pt;
+}
+#introduccion input {
+    width: 21vw;
+    height: 7vh;
+    padding: 1vh;
+    border-radius: 10px;
+    color: black;
+}
+#introduccion > p {
+    margin: 0 2vw;
+}
+#sugerencias {
+    position: absolute;
+    overflow-y: auto;
+
+    max-height: 20vh;
+}
+#sugerencias > button {
+    display: none;
+
+    width: 20vw;
+    height: 5vh;
+
+    align-items: center;
+    padding-left: 1vw;
+
+    border: none;
+
+    background-color: blue;
+}
+#sugerencias > button:hover {
+    background-color: darkblue; 
+}
+input:focus + #sugerencias > button, #sugerencias > button:hover {
+    display: flex;
+}
