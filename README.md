@@ -12,8 +12,9 @@ La página web muestra la siguiente información:
 Además, existe un desplegable con todos los idiomas que la API dispone para mostrar su información. El encabezado de las distintas secciones, sin embargo, no se modifica a pesar del cambio de idioma.
 La lista de idiomas disponibles está proporcionada por la API, y se pueden obtener [aquí](https://ddragon.leagueoflegends.com/cdn/languages.json).
 
-Esto es un proyecto de clase que me pareció interesante compartir. Si tenéis cualquier recomendación o mejora no dudéis en compartirla ^^
+La página web está subida en [GithubPages](https://grojman.github.io/LeagueOfLegendsAPIWebsite/)
 
+Esto es un proyecto de clase que me pareció interesante compartir. Si tenéis cualquier recomendación o mejora no dudéis en compartirla ^^
 
 # English Version
 This is a website wich shows data from a choosen League Of Legends character.
@@ -28,5 +29,7 @@ The website shows the information as follows:
 
 Also, there is a display with every language supported by the API. The header of each section of the website, however, does not change with the language.
 The avaliable languages are provided by the API aswell, and can be found [here](https://ddragon.leagueoflegends.com/cdn/languages.json).
+
+This website is on [GithubPages](https://grojman.github.io/LeagueOfLegendsAPIWebsite/)
 
 This a little class project that I find interesesting to share. Any recomendation or improvement is welcomed ^^
